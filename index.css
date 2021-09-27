@@ -1,0 +1,101 @@
+body {
+    background: #FAFAFA;
+    width: 100%;
+    margin: 0 auto; 
+    /* padding: 0; */
+}
+
+header {
+    display: flex;
+    background: #906136;
+    height: auto;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+header h3 {
+    font-size: 18px;
+    margin-top: 0%;
+  }
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.grid-container {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+
+img {
+    max-height: 250px;
+    width: 70%;
+}
+
+.item-info {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.item-name h3{
+    font-size: 15px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.item-gender h3{
+    margin-top: -15px;
+    font-size: 15px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.item-price h3{
+    margin-top: -15px;
+    color: red;
+    font-size: 15px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+}
+
+footer {
+    background: #906136;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
